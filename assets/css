@@ -1,0 +1,43 @@
+/* le agrego un fondo a la pagina, y hago que cubra todo el fondo */
+
+body {
+    background: url(https://i.dlpng.com/static/png/6603159_preview.png);
+    background-size:cover;
+    
+}
+/* a cada uno de los iconos les doy estas caracteristicas y establezco la transition ease para que se vea mas lindo */
+
+.boton {
+    cursor: pointer;
+    border: 4px solid white;
+    border-radius: 50%;
+    font-size: 6rem;
+    padding: 1.5rem;
+    margin: 1.5rem auto;
+    background-color: rgba(63, 69, 63, 0.65);
+    transition:  ease;
+    color: white;
+    
+
+}
+/* le otorgo un cambio de transparencia cuando uno se posa sobre el boton */
+.boton:hover {
+    background-color:rgba(63, 69, 63, 0.9) ;
+}
+/* estas dos son solo para algunos tamaños de letra y fondos */
+.titulo {
+    background-color: rgba(122, 139, 122, 1);
+}
+#marcador {
+    font-size: 4rem;
+}
+/* estos son los colores por los que cambia el fondo de los botones segun el resultado del juego */
+.victoria {
+    background-color: greenyellow !important;
+}
+.derrota {
+    background-color: red !important;
+}
+.empate {
+    background-color: white !important;
+}
